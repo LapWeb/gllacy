@@ -1,0 +1,203 @@
+<DOCKTYPE html>
+    <html lang="ru">
+        <head>
+            <meta charset="utf-8"
+            <link  href="style.css" rel="stylesheet" >
+            <title>Каталог мороженого собственного производства</title>
+        </head>
+        <body>
+            <header class="catalog">
+                <div class="container">
+                    <img src="/img/logo.svg" width="155" height="65" alt="Gllacy Shop">
+                    <nav class="catalog_navigation">
+                        <ul>
+                            <li>
+                                <a class="btn_catalog">Каталог</a>
+                                    <ul class="submenu">
+                                            <li>
+                                                <a href="#">Новинки</a>
+                                            </li>
+                                            <li>
+                                                <a>Сливочное</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Щербеты</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">фруктовый лед</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Мелорин</a>
+                                            </li>
+                                    </ul>
+                            </li>
+                            <li>
+                                <a href="#">Доставка и оплата</a>
+                            </li>
+                            <li>
+                                <a href="#">О компании</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="user_block">
+                        <div class="search_buttton">
+                            <a class="search" href="#"></a>
+                            <div class="search_field">
+                                <form>
+                                    <lable>
+                                        <input type="text">Что ищем?"
+                                    </lable>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="enter">
+                            <a class="login" href="#">Вход</a>
+                                <div>
+                                    <form>
+                                        <lable>
+                                            <input type="text">Электронная почта
+                                        </lable>
+                                        <lable>
+                                            <input type="password">Пароль
+                                        </lable>
+                                        <button type="submit">Войти</button>
+                                    </form>
+                                    <div class="forgot registration">
+                                        <a href="#">Забыли пароль?</a>
+                                        <a href="#">Новая регистрация</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="basket">
+                            <a class="filled_busket" href="#">2 товара</a>
+                        </div>
+                        <div class="in_basket">
+                            <div class="goods_basket">
+                                &#xD7;
+                                <a href="#">Пломбир с апельсиновым джемом</a>
+                                <p class="weight">1,5 кг</p>
+                                <p class="price">200 руб.</p>
+                                <p class="sum">300 руб.</p>
+                            </div>
+                            <div class="result">
+                                <b>Итого: 750 руб.</b>
+                                <a href="#">Оформить заказ</a>
+                            </div>
+                        </div>
+                        <div class="time_tel">
+                            <p class="time">с 10 до 20, ежедневно</p>
+                            <p class="telephone">812 450-25-25</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="catalog_container">
+                <div class="breadcrumbs">
+                    <a href="#">Главная</a>
+                    <a href="#">Каталог</a>
+                    <a>Сливочное</a>
+                </div>
+                <h1>Сливочное мороженое</h1>
+                <div class="sorting_settings">
+                    <form>
+                        <div class="sorting">
+                            <p>Сортировка:</p>
+                            <select name="sorting" name="Сортировка">
+                                <option value="popular">по попурярности<option>
+                                <option value="cheap">сначала недорогие</option>
+                                <option value="expensive">сначала дорогие</option>
+                                <option value="fats">по жирности</option>
+                            </select>
+                        </div>
+                        <div class="minmax_price">
+                            <p>Цена: 100 руб.-500 руб.</p>
+                            <lable>
+                                <input type="range" min="100" max="500" step="1" value="50">
+                            </lable>
+                        </div>
+                        <div class="fats">
+                            <p>Жирность:</p>
+                            <lable>
+                                <input type="radio" name="fats" value="0%"> 0%
+                            </lable>
+                            <lable>
+                                <input type="radio" name="fats" value="до10%" checked> до 10%
+                            </lable>
+                            <lable>
+                                <input type="radio" name="fats" value="до30%"> до30%
+                            </lable>
+                            <lable>
+                                <input type="radio" name="fats" value="30%"> выше 30%
+                            </lable>
+                        </div>
+                            <div class="fillers">
+                            <p>Наполнители:</p>
+                            <label>
+                                <input type="checkbox" name="shocko" checked> шоколадные
+                            </label>
+                            <label>
+                                <input type="checkbox" name="sugars"> сахарные наполнители
+                            </label>
+                            <label>
+                                <input type="checkbox" name="fruits"> фрукты
+                            </label>
+                            <label>
+                                <input type="checkbox" name="syrops"> сиропы
+                            </label>
+                            <label>
+                                <input type="checkbox" name="jams"> джемы
+                            </label>
+                            <input type="submit" value="Применить">
+                        </div>
+                    </form>
+                </div>
+                <article class="product_card">
+                    <img src="/img/1.png" width="267" height"267">
+                    <a class="name_good" href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+                    <div class="price">
+                        <span class="price">310&#8399;/кг</span>
+                        <a class="review" href="#">Быстрый просмотр</a>
+                    </div>
+                </article>
+                <article class="product_card">
+                    <img src="/img/3.png" width="267" height"267">
+                    <a class="name_good" href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
+                    <div class="price">
+                        <span class="price">355&#8399;/кг</span>
+                        </div>
+                        <a class="review" href="#">Быстрый просмотр</a>
+                </article>
+                <div class="paginator">
+                    <a class="back disabled"><</a>
+                    <a>1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="3">5</a>
+                    <a href="#" class="forward">></a>
+                </div>
+            </main>
+            <footer>
+                <div class="container">
+                    <section class="footer_social">
+                        <a class="social_btn social_btn_tw" href="#">Твиттер</a>
+                        <a class="social_btn social_btn_inst" href="#">Инстаграмм</a>
+                        <a class="socil_btn social_btn_fb" href="#">Фейсбук</a>
+                        <a class="social_btn social_btn_vk" href="#">В контакте</a>
+                    </section>
+                    <section class="footer_for_providers">
+                        <a class="for_providers" href="#">Для поставщиков</a>
+                        <a class="for_providers" href="#">О производстве</a>
+                        <a class="for_providers" href="#">Наши документы</a>
+                        <a class="for_providers" href="#">Экологические стандарты</a>
+                    </section>
+                    <section class="footer_copyright">
+                        <img src="/img./logo-html.png" width="108" height="38">
+                        <p>Сделано в
+                        <a class="btn" href="https://htmlacademy.ru">HTML Academy&copy;</a>
+                        2016</p>
+                    </section>
+                </div>
+            </footer>
+        </body>
+    </html>
